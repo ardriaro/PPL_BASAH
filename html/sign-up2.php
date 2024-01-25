@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/sign-up2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- TOP -->
+    <div class="container-fluid d-flex" id="top">
+      <p class="my-auto" id="text1">
+        Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec.Purwokerto
+        Sel., Kabupaten Banyumas, Jawa Tengah 5314
+      </p>
+      <div class="ms-auto" style="width: auto">
+        <a style="color: #fff; text-decoration: none" href="#" class="m-1">
+          <i class="far fa-envelope m-2"></i>
+          <span>Basah@gmail.com</span>
+        </a>
+    
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating text-white"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          style="padding: 6px"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+    
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating text-white"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          style="padding: 6px"
+          ><i class="fab fa-twitter"></i
+        ></a>
+    
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating text-white"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          style="padding: 6px"
+          ><i class="fab fa-google"></i
+        ></a>
+    
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating text-white"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          style="padding: 6px"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <!-- End Top -->
+    
+    <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg" style="background-color: #e8f5e9">
+      <div class="container-fluid">
+      <a href="homepage2.php">
+          <img
+            class="navbar-brand"
+            src="../assets/Screenshot_2023-10-21_121056-removebg-preview 2.svg"
+            alt="logo basah"
+            style="width: 100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../php/news1.php">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../php/education1.php"
+                  >Edukasi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/sign-in.php"
+                onclick="showLoginAlert()">Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#footer">Bantuan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="https://wa.me/+6281232919830" target="_blank"
+                  >Kontak</a
+                >
+              </li>
+          </ul>
+
+          <div class="d-grid gap-2" id="button_sign_in">
+            <a href="sign-up2.php">
+              <button
+                class="btn btn-outline-success"
+                type="submit"
+                fdprocessedid="addvtc"
+              >
+                SignUp
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <script>
+        function showLoginAlert() {
+            // Check if the user is not logged in (you can customize this check)
+            var userNotLoggedIn = true;
+
+            if (userNotLoggedIn) {
+                // Display an alert box with a button to redirect to login page
+                var alertMessage = "You need to login to access this feature.";
+                var buttonText = "Login";
+
+                // Create a confirmation dialog (alert box with a button)
+                if (confirm(alertMessage)) {
+                    // Redirect to the login page if the user clicks "Login"
+                    window.location.href = "signin.php"; // Change to your login page
+                }
+            }
+        }
+    </script>
+    
+    <section>
+      <div class="sign-in-container">
+        <div class="sign-in-sign-in" style="height: 600px;">
+          <!-- login -->
+          <div class="wrapper fadeInDown">
+            <div id="formContent" style="bottom: 8  0px;">
+              <!-- Tabs Titles -->
+          
+              <!-- Icon -->
+              <div class="fadeIn first">
+                <img src="../assets/Screenshot_2023-10-21_121056-removebg-preview 2.svg" id="icon" alt="User Icon" />
+              </div>
+              
+              <!-- Login Form -->
+              <form class="mx-4 mb-4" action="process-signup.php" method="post">
+                <div class="mb-3 email1">
+                  <input
+                    type="name"
+                    name="name"
+                    class="form-control focus-ring"
+                    id="floatingInput"
+                    placeholder="Nama"
+                    style="
+                      border-color: #79ac78;
+                      --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);
+                    "
+                  />
+                  <label for="floatingInput" class="visually-hidden">Nama</label>
+                </div>
+
+                <div class="mb-3 email1">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control focus-ring"
+                    id="floatingInput"
+                    placeholder="Email"
+                    style="
+                      border-color: #79ac78;
+                      --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);
+                    "
+                  />
+                  <label for="floatingInput" class="visually-hidden">Email</label>
+                </div>
+
+                <div class="mb-3 pass">
+                  <input type="password"  name="password" id="password" placeholder="Password"/>
+                  <i onclick="change()"></i>
+                </div>
+
+                <div class="pass">
+                  <input type="password"  name="confirmPassword" id="password" placeholder="Password Checked"/>
+                  <i onclick="change()"></i>
+                </div>
+
+                <div class="d-flex">
+                  <!-- <p>
+                    <a
+                      class="link-offset-2 link-underline link-underline-opacity-0"
+                      href="password.php"
+                      style="color: #696969"
+                      >Forgot Password?</a
+                    >
+                  </p> -->
+                  <div class="ms-auto">
+                    <p>
+                      <a
+                        class="link-offset-2 link-underline link-underline-opacity-0"
+                        href="sign-in.php"
+                        style="color: #696969"
+                        >Sign In</a
+                      >
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button
+                    class="btn"
+                    type="submit"
+                    style="background-color: #1E232C; color: white"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- footer -->
+
+      <footer class="site-footer">
+        <!-- Footer About Us -->
+        <div class="container" style="max-width: 600px">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About Us</h6>
+              <p class="text-justify">
+                Bank Sampah merupakan sebuah layanan yang bertujuan untuk
+                mengelola dan mendaur ulang sampah secara efisien.
+              </p>
+              <p></p>
+            </div>
+  
+            <div class="col-sm-12 col-md-6">
+              <h6>Newslatter</h6>
+              <p class="text-justify">
+                Lorem Ipsum is simply dummy text of in market the printing
+                typesetting.
+              </p>
+              <p></p>
+            </div>
+  
+            <div class="col-sm-12 col-md-6"></div>
+  
+            <div class="col-sm-12 col-md-6" id="footer_sosmed">
+              <a
+                class="btn btn-link btn-floating"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark" 
+                style="font-size: 30px;">
+                <i class="fab fa-facebook"></i>
+              </a>
+  
+              <a
+                class="btn btn-link btn-floating"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                style="font-size: 30px;">
+                <i class="fab fa-apple"></i>
+              </a>
+  
+              <a
+                class="btn btn-link btn-floating"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                style="font-size: 30px;">
+                <i class="fab fa-twitter"></i>
+              </a>
+              
+              <a
+                class="btn btn-link btn-floating"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                style="font-size: 30px;">
+                <i class="fab fa-google"></i>
+              </a>
+  
+            </div>
+            
+          </div>
+        </div>
+        <hr />
+        <div class="container-fluid text-white text-center">
+          <p>
+            Copyright &copy; 2023 Sistem Bank Sampah - All Right Reserved.A
+            product of <a href="#">PT.Bank Sampah</a>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/sign-in.js"></script>
+  </body>
+</html>

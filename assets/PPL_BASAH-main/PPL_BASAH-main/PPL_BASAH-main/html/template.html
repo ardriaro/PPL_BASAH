@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Sign-in</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/sign-in.css" />
+    <!-- END CSS -->
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- END Bootstrap -->
+
+    <!-- Google Font -->
+        <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Shanti -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shanti&display=swap" rel="stylesheet">
+    <!-- END Google Font -->
+</head>
+
+<body>
+    <!-- TOP -->
+    <div class="container-fluid d-flex" id="top">
+        <p class="my-auto" id="text1" style="font-family: 'Rubik';">
+            Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec.Purwokerto
+            Sel., Kabupaten Banyumas, Jawa Tengah 5314
+        </p>
+        <div class="ms-auto" style="width: auto;">
+            <a style="color: #fff; text-decoration: none;" href="#" class="m-1">
+                <i class="far fa-envelope m-2"></i>
+                <span>Basah@gmail.com</span>
+            </a>
+
+            <!-- Facebook -->
+            <a class="btn btn-link btn-floating text-white" href="#!" role="button" data-mdb-ripple-color="dark"
+                style="padding: 6px;"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-link btn-floating text-white" href="#!" role="button" data-mdb-ripple-color="dark"
+                style="padding: 6px;"><i class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-link btn-floating text-white" href="#!" role="button" data-mdb-ripple-color="dark"
+                style="padding: 6px;"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a style="padding: 6px;"><img src="../assets/instagram.svg" alt=""></a>
+        </div>
+    </div>
+    <!-- END TOP -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #e8f5e9">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="../assets/Screenshot_2023-10-21_121056-removebg-preview 2.svg"
+                alt="logo basah" style="width: 100px; position: relative; left: 100px;" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02"
+                style="font-family: 'Rubik', sans-serif; font-weight: 500;">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- NEWS -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">News</a>
+                    </li>
+                    <!-- END NEWS -->
+                    <!-- Education -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Education</a>
+                    </li>
+                    <!-- end education -->
+                    <!-- services -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+                    <!-- end services -->
+                    <!-- help -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Help</a>
+                    </li>
+                    <!-- end help -->
+                    <!-- contact -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <!-- end contact -->
+                </ul>
+
+                <div class="d-grid gap-2" id="button_sign_in">
+                    <button class="btn btn-outline-success" type="submit" fdprocessedid="addvtc">
+                        SignUp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- END NAVBAR -->
+
+    <!-- ISI CONTENT -->
+    <div class="sign-in-container">
+        <div class="sign-in-sign-in" style="height: 600px;">
+            <!-- login -->
+            <div class="wrapper fadeInDown">
+                <div id="formContent" style="bottom: 8  0px;">
+                    <!-- Tabs Titles -->
+
+                    <!-- Icon -->
+                    <div class="fadeIn first">
+                        <img src="../assets/Screenshot_2023-10-21_121056-removebg-preview 2.svg" id="icon"
+                            alt="User Icon" />
+                    </div>
+
+                    <p style="font-family: 'Shanti', sans-serif; font-size: 35px;">Sign <span style="color: #79ac78;">In</span></p>
+                    <!-- Login Form -->
+                    <form action="#" method="post" class="mx-4 mb-4">
+                        <div class="mb-3 email1">
+                            <input type="email" class="form-control focus-ring" id="floatingInput" placeholder="Email" style=" border-color: #79ac78; --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);" />
+                            <label for="floatingInput" class="visually-hidden">Email</label>
+                        </div>
+                        <div class="password" style="">
+                            <div class="mb-4 password" style="border-color: #79ac78; --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);; float: left; display: inline-block; position: relative;">
+                                <input class="form-control focus-ring" type="password" id="password" placeholder="Password" style="width: 100%; border-color: #79ac78; --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);"/>
+                                <img src="../assets/pass-hide.png" onclick="pass()" class="pass-icon" id="pass-icon" alt="" style="position: absolute; left: 80%; bottom: 9px; height: 20px; width: 30px;">
+                            </div>
+                        </div>
+
+                    </form>
+
+
+
+
+
+
+
+
+
+
+                    <!-- <form class="mx-4 mb-4">
+                        <div class="mb-3 email1">
+                            <input type="email" class="form-control focus-ring" id="floatingInput" placeholder="Email" style=" border-color: #79ac78; --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);" />
+                            <label for="floatingInput" class="visually-hidden">Email</label>
+                        </div>
+
+                        <div class="mb-3 pass">
+                            <input class="form-control focus-ring" type="password" name="password" id="password" placeholder="Password" style="border-color: #79ac78; --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25);"/>
+                        </div>
+
+                        <div class="d-flex">
+                            <p>
+                                <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"
+                                    style="color: #696969">Forgot Password?</a>
+                            </p>
+                            <div class="ms-auto">
+                                <p>
+                                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#"
+                                        style="color: #696969">Sign Up</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn" type="submit" style="background-color: #1E232C; color: white">
+                                Sign In
+                            </button>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <!-- Footer About Us -->
+        <div class="container" style="max-width: 600px">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About Us</h6>
+                    <p class="text-justify">
+                        Bank Sampah merupakan sebuah layanan yang bertujuan untuk
+                        mengelola dan mendaur ulang sampah secara efisien.
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <h6>Newslatter</h6>
+                    <p class="text-justify">
+                        Lorem Ipsum is simply dummy text of in market the printing
+                        typesetting.
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-12 col-md-6"></div>
+
+                <div class="col-sm-12 col-md-6" id="footer_sosmed">
+                    <a class="btn btn-link btn-floating" href="#!" role="button" data-mdb-ripple-color="dark"
+                        style="font-size: 30px;">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating" href="#!" role="button" data-mdb-ripple-color="dark"
+                        style="font-size: 30px;">
+                        <i class="fab fa-apple"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating" href="#!" role="button" data-mdb-ripple-color="dark"
+                        style="font-size: 30px;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating" href="#!" role="button" data-mdb-ripple-color="dark"
+                        style="font-size: 30px;">
+                        <i class="fab fa-google"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+        <hr />
+        <div class="container-fluid text-white text-center">
+            <p>
+                Copyright &copy; 2023 Sistem Bank Sampah - All Right Reserved.A
+                product of <a href="#">PT.Bank Sampah</a>
+            </p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCRIPT JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="/js/sign-in.js"></script>
+    <!-- END SCRIPT JS -->
+</body>
+
+</html>

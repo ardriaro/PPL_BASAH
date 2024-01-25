@@ -1,0 +1,1485 @@
+#navbarTogglerDemo02 ul li a{
+    padding: 0 30px;
+  }
+  
+  /* atas navbar */
+  #top{
+    background-color: rgba(83, 148, 7, 1);
+  }
+  
+  #top p{
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+  }
+  
+  @media (max-width: 1005px) {
+    #top #text1{
+        display: none;
+    }
+  }
+  /* end atas navbar */
+  
+  /* Navbar */
+  @media (max-width: 1000px) {
+    nav #navbarTogglerDemo02 #button_sign_in{
+      margin-left: auto!important;
+      margin-right: auto!important;
+      width: 25%;
+    }
+  
+    nav #navbarTogglerDemo02 ul{
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  nav #navbarTogglerDemo02 ul li a:hover{
+    color: #79AC78;
+  }
+  /* End Navbar */
+  
+  /* Start Login Form */
+  form i {
+    margin-left: -30px;
+    cursor: pointer;
+    vertical-align: 0!important;
+  }
+  
+  form::placeholder{
+    color: #0F4229;
+  }
+  
+  form .email1 input{
+    padding: 1rem 0.75rem;
+  }
+  
+  form .pass{
+    margin-left: -1.0rem;
+    margin-right: 0.9rem;
+  }
+  
+  form .pass input{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-color: #79ac78;
+    border-radius: 0.4rem;
+    width: 100%;
+    padding: 0.98rem 0.75rem;
+    text-align: left;
+  }
+  /* End Login Form */
+  
+  /* form search */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Footer Contact */
+  #footer_contact{
+    position: absolute;
+    top: 670px;
+  }
+  #footer_contact .card{
+    height: 106px;
+  }
+  
+  #footer_contact .div_img{
+    background-color: #539407;
+    border-radius: 12px;
+    height: 100%;
+  }
+  
+  #footer_contact .div_img img{
+    object-fit: cover;
+    padding: 1rem;
+    width: 236px;
+  }
+  
+  /* #footer_contact .div_img img{
+  
+  } */
+  
+  #footer_contact p{
+    font-size: 1vw;
+    color: #000;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .garis-vertical {
+    border-left: 1px solid #539407;
+    height: 60px;
+  }
+  /* End Footer Contact */
+  
+  /* Footer */
+  .site-footer
+  {
+    background-image: url(../assets/bgfooter.svg);
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#fff;
+  }
+  .site-footer hr
+  {
+    border-top-color:#bbb;
+    opacity:0.5;
+  }
+  .site-footer hr.small
+  {
+    margin:20px 0
+  }
+  .site-footer h6
+  {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  .site-footer a
+  {
+    color:#fff;
+    text-decoration: none;
+  }
+  .site-footer a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links
+  {
+    padding-left:0;
+    list-style:none
+  }
+  .footer-links li
+  {
+    display:block
+  }
+  .footer-links a
+  {
+    color:#737373
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+    display:inline-block
+  }
+  .site-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
+  .copyright-text
+  {
+    margin-left: auto;
+  }
+  /* @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  } */
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0
+    }
+    
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  
+    #footer_sosmed
+    {
+      display: flex!important;
+      justify-content: center!important;
+    }
+  }
+  
+  .social-icons
+  {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.twitter:hover
+  {
+    background-color:#00aced
+  }
+  .social-icons a.linkedin:hover
+  {
+    background-color:#007bb6
+  }
+  .social-icons a.dribbble:hover
+  {
+    background-color:#ea4c89
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600
+    }
+  }
+  /* End Footer */
+  
+  
+  .sign-in-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .sign-in-sign-in {
+      width: 100%;
+      height: 700px!important;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      background-color: rgba(97, 130, 100, 1);
+    }
+    .sign-in-header {
+      top: -3px;
+      left: 0px;
+      width: 1920px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .sign-in-nav-bar {
+      gap: 10px;
+      width: 1676px;
+      display: flex;
+      padding: 24px 170px;
+      align-items: flex-start;
+      flex-shrink: 0;
+      background-color: rgba(232, 245, 233, 1);
+    }
+    .sign-in-frame151 {
+      gap: 420px;
+      width: 1579.6875px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      justify-content: space-between;
+    }
+    .sign-in-imagelogo {
+      width: 137px;
+      height: 40px;
+    }
+    .sign-in-frame152 {
+      gap: 73px;
+      display: flex;
+      align-items: center;
+    }
+    .sign-in-ulmenumainmenu {
+      gap: 36px;
+      width: 587.6875px;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      justify-content: space-between;
+    }
+    .sign-in-home {
+      gap: 6px;
+      display: flex;
+      align-items: center;
+    }
+    .sign-in-text10 {
+      color: rgba(83, 148, 7, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text12 {
+      color: rgba(83, 148, 7, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Solid;
+      text-align: left;
+      font-family: Font Awesome 5 Free;
+      font-weight: 400;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text13 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text15 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text17 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-a2 {
+      gap: 5.4375px;
+      display: flex;
+      padding: 11.5625px 4.25px 13.578125px 0;
+      align-items: flex-start;
+    }
+  
+    .sign-in-a2:hover{
+      color: rgba(83, 148, 7, 1);
+      text-decoration: none;
+      content: url('assets/dropdown_hover.svg');
+    }
+  
+    .sign-in-text19 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+  
+    /* .sign-in-text19:hover{
+      color: rgba(83, 148, 7, 1);
+      text-decoration: none;
+    }
+  
+    .sign-in-text21:hover{
+      content: url('assets/dropdown_hover.svg');
+    } */
+  
+    .sign-in-text21 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Solid;
+      text-align: left;
+      font-family: Font Awesome 5 Free;
+      font-weight: 400;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+      padding: 10px 0px;
+    }
+    .sign-in-text22 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 23px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-contact-button {
+      display: flex;
+      padding: 16px 40px;
+      align-items: center;
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 10px;
+    }
+    .sign-in-text24 {
+      color: rgba(15, 66, 41, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Medium;
+      text-align: center;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 22px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text25 {
+      font-weight: 500;
+    }
+    .sign-in-group7 {
+      top: 1458px;
+      left: 0px;
+      width: 1920px;
+      height: 628.3125px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+    }
+    .sign-in-div03 {
+      top: 60.3125px;
+      left: 0px;
+      width: 1920px;
+      height: 568px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-section {
+      top: 0px;
+      left: 0px;
+      width: 1920px;
+      display: flex;
+      padding: 150px 0 37px;
+      position: absolute;
+      align-items: flex-start;
+      background-color: rgba(15, 66, 41, 0.949999988079071);
+    }
+    .sign-in-div04 {
+      width: 1920px;
+      height: 381.390625px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-div05 {
+      top: 0px;
+      left: 626.546875px;
+      width: 667px;
+      display: flex;
+      padding: 0 0.015625px 0 0;
+      position: absolute;
+      align-items: flex-start;
+    }
+    .sign-in-div06 {
+      width: 292.5px;
+      height: 237.390625px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-text27 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      position: absolute;
+      font-size: 20px;
+      font-style: Bold;
+      text-align: left;
+      font-family: Jost;
+      font-weight: 700;
+      line-height: 20px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-span {
+      top: 38px;
+      left: 0px;
+      width: 22px;
+      height: 3px;
+      position: absolute;
+      border-color: rgba(83, 148, 7, 1);
+      border-style: solid;
+      border-width: 3px 0 0;
+    }
+    .sign-in-text29 {
+      top: 72px;
+      color: rgba(255, 255, 255, 1);
+      width: 242px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 30px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-div07 {
+      gap: 16px;
+      top: 191.390625px;
+      left: 0px;
+      width: 292px;
+      display: flex;
+      padding: 0 88.5px 0 0;
+      position: absolute;
+      align-items: flex-start;
+    }
+    .sign-in-a3 {
+      width: 39px;
+      height: 39px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-radius: 19.5px;
+      background-color: rgba(83, 148, 7, 1);
+    }
+    .sign-in-text31 {
+      top: 13px;
+      left: 15.4375px;
+      color: rgba(255, 255, 255, 1);
+      width: 8px;
+      height: auto;
+      position: absolute;
+      font-size: 13px;
+      font-style: Regular;
+      text-align: center;
+      font-family: Font Awesome 5 Brands;
+      font-weight: 400;
+      line-height: 13px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-a4 {
+      width: 39px;
+      height: 39px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-radius: 19.5px;
+      background-color: rgba(255, 255, 255, 0.10000000149011612);
+    }
+    .sign-in-text32 {
+      top: 13px;
+      left: 13px;
+      color: rgba(255, 255, 255, 1);
+      width: 13px;
+      height: auto;
+      position: absolute;
+      font-size: 13px;
+      font-style: Regular;
+      text-align: center;
+      font-family: Font Awesome 5 Brands;
+      font-weight: 400;
+      line-height: 13px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-a5 {
+      width: 39px;
+      height: 39px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-radius: 19.5px;
+      background-color: rgba(255, 255, 255, 0.10000000149011612);
+    }
+    .sign-in-text33 {
+      top: 13px;
+      left: 13.8125px;
+      color: rgba(255, 255, 255, 1);
+      width: 12px;
+      height: auto;
+      position: absolute;
+      font-size: 13px;
+      font-style: Regular;
+      text-align: center;
+      font-family: Font Awesome 5 Brands;
+      font-weight: 400;
+      line-height: 13px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-a6 {
+      width: 39px;
+      height: 39px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-radius: 19.5px;
+      background-color: rgba(255, 255, 255, 0.10000000149011612);
+    }
+    .sign-in-text34 {
+      top: 13px;
+      left: 13.8125px;
+      color: rgba(255, 255, 255, 1);
+      width: 12px;
+      height: auto;
+      position: absolute;
+      font-size: 13px;
+      font-style: Regular;
+      text-align: center;
+      font-family: Font Awesome 5 Brands;
+      font-weight: 400;
+      line-height: 13px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-div08 {
+      width: 374.390625px;
+      height: 237.390625px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-text35 {
+      left: 23px;
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      position: absolute;
+      font-size: 20px;
+      font-style: Bold;
+      text-align: left;
+      font-family: Jost;
+      font-weight: 700;
+      line-height: 20px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-span1 {
+      top: 38px;
+      left: 23px;
+      width: 22px;
+      height: 3px;
+      position: absolute;
+      border-color: rgba(83, 148, 7, 1);
+      border-style: solid;
+      border-width: 3px 0 0;
+    }
+    .sign-in-text37 {
+      top: 72px;
+      left: 23px;
+      color: rgba(255, 255, 255, 1);
+      width: 295px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 30px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-div09 {
+      top: 151.390625px;
+      left: 23px;
+      width: 351px;
+      height: 70px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-inputmfinputemaile2bce18 {
+      top: 0px;
+      left: 0px;
+      width: 351px;
+      display: flex;
+      padding: 25px 21px 26px 30px;
+      position: absolute;
+      align-items: flex-start;
+      border-color: rgba(255, 255, 255, 1);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 35px;
+    }
+    .sign-in-divplaceholder {
+      display: flex;
+      padding: 0 198.390625px 0 0;
+      overflow: hidden;
+      align-items: flex-start;
+    }
+    .sign-in-text39 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-button {
+      top: 4px;
+      left: 286.390625px;
+      width: 60px;
+      display: flex;
+      padding: 20px 22px 18px 20px;
+      position: absolute;
+      align-items: flex-start;
+      border-radius: 29px;
+      background-color: rgba(83, 148, 7, 1);
+    }
+    .sign-in-text41 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 18px;
+      font-style: Solid;
+      text-align: center;
+      font-family: Font Awesome 5 Free;
+      font-weight: 400;
+      line-height: 18px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-span2 {
+      top: 316.390625px;
+      left: 375px;
+      width: 1170px;
+      height: 1px;
+      position: absolute;
+      border-color: rgba(255, 255, 255, 0.20000000298023224);
+      border-style: solid;
+      border-width: 1px 0 0;
+    }
+    .sign-in-a7 {
+      top: 326.390625px;
+      left: 1835px;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: rgba(83, 148, 7, 1);
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 27.5px;
+    }
+    .sign-in-text42 {
+      top: 20px;
+      left: 20.9375px;
+      color: rgba(255, 255, 255, 1);
+      width: 13px;
+      height: auto;
+      position: absolute;
+      font-size: 15px;
+      font-style: Solid;
+      text-align: left;
+      font-family: Font Awesome 5 Free;
+      font-weight: 400;
+      line-height: 15px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text43 {
+      top: 346.6875px;
+      left: 631px;
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: center;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 30px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-group15 {
+      top: 0px;
+      left: 375px;
+      width: 1170px;
+      height: 120px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+    }
+    .sign-in-rectangle14 {
+      top: 0px;
+      left: 300px;
+      width: 870px;
+      height: 120px;
+      position: absolute;
+      border-radius: 12px;
+    }
+    .sign-in-text45 {
+      top: 40px;
+      left: 368px;
+      color: rgba(0, 0, 0, 1);
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 139.9999976158142%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text50 {
+      top: 40px;
+      left: 942px;
+      color: rgba(0, 0, 0, 1);
+      width: 206px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 139.9999976158142%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text55 {
+      top: 27px;
+      left: 639px;
+      color: rgba(0, 0, 0, 1);
+      width: 223px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      font-style: Light;
+      text-align: left;
+      font-family: Rubik;
+      font-weight: 300;
+      line-height: 139.9999976158142%;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-materialsymbolsphoneenabled {
+      top: 44px;
+      left: 355px;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+    }
+    .sign-in-materialsymbolslocationon {
+      top: 44px;
+      left: 596px;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+    }
+    .sign-in-icbaselineemail {
+      top: 44px;
+      left: 892px;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+    }
+    .sign-in-vector1 {
+      top: 16px;
+      left: 573px;
+      width: 0px;
+      height: 88px;
+      position: absolute;
+    }
+    .sign-in-vector2 {
+      top: 16px;
+      left: 869px;
+      width: 0px;
+      height: 88px;
+      position: absolute;
+    }
+    .sign-in-frame10 {
+      gap: 10px;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      padding: 24px;
+      position: absolute;
+      align-items: flex-start;
+      border-radius: 12px;
+      flex-direction: column;
+      background-color: rgba(83, 148, 7, 1);
+    }
+    .sign-in-logo1 {
+      width: 236px;
+      height: 72px;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+    }
+    .sign-in-vector {
+      top: -0.002132764784619212px;
+      left: -0.002979016862809658px;
+      width: 54px;
+      height: 72px;
+      position: absolute;
+    }
+    .sign-in-screenshot20231021121056removebgpreview2 {
+      top: 9px;
+      left: 66px;
+      width: 170px;
+      height: 55px;
+      position: absolute;
+    }
+    .sign-in-group22 {
+      top: 323px;
+      left: 387px;
+      width: 1146px;
+      height: 749px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+    }
+    .sign-in-log-in-card {
+      top: 0px;
+      left: 0px;
+      width: 1146px;
+      height: 749px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .sign-in-sugmit-loginbutton {
+      top: 646px;
+      left: 520px;
+      width: 108px;
+      height: 45px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+    }
+    .sign-in-text57 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      position: absolute;
+      font-size: 35px;
+      font-style: Regular;
+      text-align: left;
+      font-family: Shanti;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-email {
+      top: 374px;
+      left: 280px;
+      width: 584px;
+      height: 66px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .sign-in-text59 {
+      top: 18px;
+      left: 17px;
+      color: rgba(80, 80, 80, 1);
+      height: auto;
+      opacity: 0.70;
+      position: absolute;
+      font-size: 25px;
+      font-style: Light;
+      text-align: left;
+      font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-password {
+      top: 472px;
+      left: 280px;
+      width: 584px;
+      height: 66px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .sign-in-text61 {
+      top: 18px;
+      left: 17px;
+      color: rgba(80, 80, 80, 1);
+      height: auto;
+      opacity: 0.70;
+      position: absolute;
+      font-size: 25px;
+      font-style: Light;
+      text-align: left;
+      font-family: Roboto Condensed;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text63 {
+      top: 252px;
+      left: 439px;
+      color: rgba(44, 44, 44, 1);
+      height: auto;
+      position: absolute;
+      font-size: 60px;
+      font-style: Regular;
+      text-align: left;
+      font-family: Shanti;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text65 {
+      top: 553px;
+      left: 774px;
+      color: rgba(105, 105, 105, 1);
+      width: 90px;
+      height: auto;
+      position: absolute;
+      font-size: 23px;
+      font-style: Regular;
+      text-align: left;
+      font-family: Poppins;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-text67 {
+      top: 553px;
+      left: 280px;
+      color: rgba(105, 105, 105, 1);
+      width: 225px;
+      height: auto;
+      position: absolute;
+      font-size: 23px;
+      font-style: Regular;
+      text-align: left;
+      font-family: Poppins;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    .sign-in-screenshot20231021121056removebgpreview21 {
+      top: 18px;
+      left: 321px;
+      width: 505px;
+      height: 234px;
+      position: absolute;
+    }
+    .sign-in-sugmit-loginbutton1 {
+      top: 955px;
+      left: 827px;
+      width: 267px;
+      height: 74px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 1;
+      background-color: rgba(121, 172, 120, 1);
+    }
+    .sign-in-text69 {
+      top: 9px;
+      left: 66px;
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      position: absolute;
+      font-size: 45px;
+      font-style: Regular;
+      text-align: left;
+      font-family: Roboto;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    
+  
+    /* Login Card */
+  
+  /* BASIC */
+  
+  html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+  }
+  
+  
+  
+  /* STRUCTURE */
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 100px 40px;
+  }
+  
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  #formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  
+  
+  /* TABS */
+  
+  h2.inactive {
+    color: #cccccc;
+  }
+  
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  
+  
+  /* FORM TYPOGRAPHY*/
+  
+  input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  input[type=text]:placeholder {
+    color: #cccccc;
+  }
+  
+  
+  
+  /* ANIMATIONS */
+  
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+  .fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+  
+  
+  
+  /* OTHERS */
+  
+  *:focus {
+      outline: none;
+  } 
+  
+  #icon {
+    width:60%;
+  }
+  
+  

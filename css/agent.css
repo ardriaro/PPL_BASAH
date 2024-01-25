@@ -1,0 +1,41 @@
+@media (min-width: 375px) and (max-width: 425px){
+    .logo{
+        font-size: 24px !important;
+    }
+    .text-start{
+        font-size: 10px !important;
+    }
+    .table h6{
+        font-size: 5px !important;
+    }
+    tbody td{
+        font-size: 5px !important;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 689px){
+    .logo{
+        font-size: 27px !important;
+    }
+    .text-start{
+        font-size: 15px !important;
+    }
+    .table h6{
+        font-size: 8px !important;
+    }
+    tbody td{
+        font-size: 8px !important;
+    }
+}
+
+@media (min-width: 690px) and (max-width: 945px){
+    .text-start{
+        font-size: 22px !important;
+    }
+    .table h6{
+        font-size: 12px !important;
+    }
+    tbody td{
+        font-size: 12px !important;
+    }
+}

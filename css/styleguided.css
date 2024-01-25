@@ -1,0 +1,29 @@
+:root {
+    --h-1: rgba(39, 71, 34, 1);
+    --h-2: rgba(121, 172, 120, 1);
+    --font-1-font-family: "Shanti-Regular", Helvetica;
+    --font-1-font-weight: 400;
+    --font-1-font-size: 12px;
+    --font-1-letter-spacing: 0px;
+    --font-1-line-height: normal;
+    --font-1-font-style: normal;
+    --rubik-font-family: "Rubik-Regular", Helvetica;
+    --rubik-font-weight: 400;
+    --rubik-font-size: 12px;
+    --rubik-letter-spacing: 0px;
+    --rubik-line-height: normal;
+    --rubik-font-style: normal;
+    --josh-font-family: "Jost-Regular", Helvetica;
+    --josh-font-weight: 400;
+    --josh-font-size: 12px;
+    --josh-letter-spacing: 0px;
+    --josh-line-height: normal;
+    --josh-font-style: normal;
+    --font-tombol-roboto-font-family: "Roboto-Regular", Helvetica;
+    --font-tombol-roboto-font-weight: 400;
+    --font-tombol-roboto-font-size: 12px;
+    --font-tombol-roboto-letter-spacing: 0px;
+    --font-tombol-roboto-line-height: normal;
+    --font-tombol-roboto-font-style: normal;
+  }
+  

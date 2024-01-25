@@ -1,0 +1,64 @@
+/* atas navbar */
+#top{
+    background-color: rgba(83, 148, 7, 1);
+  }
+  
+#top p{
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+}
+  
+  @media (max-width: 1005px) {
+    #top #text1{
+        display: none;
+    }
+  }
+/* end atas navbar */
+
+/* Navbar */
+@media (max-width: 1000px) {
+    nav #navbarTogglerDemo02 #button_sign_in{
+      margin-left: auto!important;
+      margin-right: auto!important;
+      width: 25%;
+    }
+  
+    nav #navbarTogglerDemo02 ul{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+ .navbar-collapse{
+  flex-grow: 0!important;
+ } 
+  
+nav #navbarTogglerDemo02 ul li a:hover{
+    color: #79AC78;
+}
+/* End Navbar */
+
+/* STRUCTURE */
+.content .center{
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img{
+ width: 80%;
+ margin-top: 2rem;
+}
+
+.content h1{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 3vw;
+  margin: 2rem;
+}
+/* END STRUCTURE */

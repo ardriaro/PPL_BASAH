@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbarTogglerDemo02 ul li a{
+    padding: 0 30px;
+  }
+  
+  /* atas navbar */
+  #top{
+    background-color: rgba(83, 148, 7, 1);
+  }
+  
+  #top p{
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+  }
+  
+  @media (max-width: 1005px) {
+    #top #text1{
+        display: none;
+    }
+  }
+  /* end atas navbar */
+  
+  /* Navbar */
+  @media (max-width: 1000px) {
+    nav #navbarTogglerDemo02 #button_sign_in{
+      margin-left: auto!important;
+      margin-right: auto!important;
+      width: 25%;
+    }
+  
+    nav #navbarTogglerDemo02 ul{
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  nav #navbarTogglerDemo02 ul li a:hover{
+    color: #79AC78;
+  }
+  /* End Navbar */
+
+  /* bg-image */
+.bg-image{
+    background-image: url('../assets/bg-education.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.text-image{
+    font-style: italic;
+    font-family: 'Shanti', sans-serif;
+    font-size: 4rem; 
+    color: white;
+}
+/* end bg-image */
+
+/* Jenis Edukasi */
+
+@media screen and (min-width: 300px){
+    .bg-image{
+        min-height: 28vh;
+    }
+    .text-image{
+        font-size: 0.7rem;
+    }
+    .text-center{
+        font-size: 1rem;
+        margin-top: 60px;
+    }
+    .line-center{
+        border-top: 2px solid black;
+    }
+    .tombol.btn.btn-light.btn-lg{
+        width: 200px !important;
+        height: 80px !important;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .bg-image{
+        min-height: 34vh;
+    }
+    .text-image{
+        font-size: 1.25rem;
+    }
+    .text-center{
+        font-size: 1.2rem;
+        
+    }
+}
+
+@media screen and (min-width: 640px){
+    .text-image{
+        font-size: 1.4rem;
+    }
+    .text-center{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .bg-image{
+        min-height: 45vh;
+    }
+    .text-image{
+        font-size: 1.7rem;
+    }
+    .text-center{
+        font-size: 1.4rem;
+    }
+    
+        
+}
+
+@media screen and (min-width: 992px){
+    .bg-image{
+        min-height: 57vh;
+    }
+    .text-image{
+        font-size: 2.2rem;
+    }
+    .text-center{
+        font-size: 1.7rem;
+    }
+    
+        
+}
+
+@media screen and (min-width: 1140px){
+    .bg-image{
+        min-height: 60vh;
+    }
+    .text-image{
+        font-size: 2.4rem;
+    }
+    .text-center{
+        font-size: 2rem;
+    }
+    
+        
+}
+
+@media screen and (min-width: 1200px){
+    .bg-image{
+        min-height: 66vh;
+    }
+    .text-image{
+        font-size: 2.7rem;
+    }
+    .text-center{
+        font-size: 2.2rem;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    .bg-image{
+        min-height: 75vh;
+    }
+    .text-image{
+        font-size: 3rem;
+    }
+    .text-center{
+        font-size: 2.3rem;
+    }
+    
+        
+}
+
+@media screen and (min-width: 1600px){
+    .bg-image{
+        min-height: 80vh;
+    }
+    .text-image{
+        font-size: 3.6rem;
+    }
+    .text-center{
+        font-size: 2.5rem;
+    }
+    
+        
+}
+
+@media screen and (min-width: 1700px){
+    .bg-image{
+        min-height: 88vh;
+    }
+    .text-image{
+        font-size: 3.6rem;
+    }
+    .text-center{
+        font-size: 2.5rem;
+    }
+}
+
+/* Text Center Education */
+.line-center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+

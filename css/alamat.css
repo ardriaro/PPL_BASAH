@@ -1,0 +1,26 @@
+.section{
+  margin: 3rem 0 5rem 0;
+}
+
+.section p{
+  line-height: 200%;
+  font-size: 1.3rem;
+}
+
+.section .col-3{
+  display: flex;
+  justify-content: end;
+}
+
+.section .edit{
+  padding-left: 5rem;
+}
+
+@media (max-width:1199px){
+  /* .section .row{
+    flex-direction: column;
+  } */
+  .section .edit{
+    padding-left: 1rem;
+  }
+}

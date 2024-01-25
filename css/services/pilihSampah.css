@@ -1,0 +1,65 @@
+/* Start isi*/
+.section{
+    margin: 2rem 0;
+}
+
+.section a{
+  color: #212529;
+}
+
+.section svg{
+    height: 2.5em;
+    width: 3em;
+    cursor: pointer;
+}
+
+.section svg:hover
+{
+  color:#79AC78;
+  text-decoration:none;
+}
+
+.section p{
+  font-size: 1vw;
+}
+
+.section1 label{
+  font-size: 1.2vw;
+}
+
+.section2{
+  margin: 2rem 0 5rem 0;
+}
+
+.section2 p{
+  font-size: 1.2vw;
+  line-height: 200%;
+}
+
+.section2 .col-3{
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width:768px){
+  .section2 p{
+    font-size: 2vw;
+  }
+
+  .section2 h1{
+    font-size: 4vw;
+  }
+
+  .section p{
+    font-size: 2vw;
+  }
+
+  .section1 label{
+    font-size: 2vw;
+  }
+
+  .section .row{
+    justify-content: center;
+  }
+}
+/* End isi */

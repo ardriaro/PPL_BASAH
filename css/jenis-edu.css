@@ -1,0 +1,375 @@
+.bg-content{
+    background-color: #0F4229; 
+    height: 730px;
+}
+
+.text-edu{
+    padding: 48px 0px !important; 
+    font-family: 'Rowdies', sans-serif; 
+    font-size: 1.5rem !important; 
+    color: #FFF !important;
+}
+
+.bg-button{
+    background-color: #79AC78 !important; 
+    width: 1000px !important; 
+    padding: 0px 30px 50px 0px !important; 
+    height: 460px !important;
+}
+
+.btn-lg{
+    font-family: 'Rowdies', sans-serif !important; 
+    font-size: 36px !important; 
+    width: 300px !important; 
+    height: 100px !important;
+}
+.general{
+    gap: 30px 40px; 
+    padding-top: 42px; 
+    padding-bottom: 42px; 
+    padding-left: 0px;
+}
+
+.fa-scroll{
+    font-size: 49px;
+}
+
+.fa-bottle-water{
+    font-size: 60px; 
+    padding-left: 10px;
+}
+
+.fa-champagne-glasses{
+    font-size: 55px; 
+    padding-left: 8px;
+}
+
+.fa-screwdriver-wrench{
+    font-size: 49px; 
+    padding-left: 10px;
+}
+
+.fa-leaf{
+    font-size: 55px; 
+    padding-left: 15px;
+}
+
+.fa-computer{
+    font-size: 55px;
+}
+
+@media screen and (min-width: 300px){
+    .bg-content{
+        height: 530px !important;
+        width: 280px !important;
+    }
+    .text-edu{
+        font-size: 0.8rem !important;
+        padding: 30px 0px !important;
+    }
+    .bg-button{
+        width: 240px !important;
+        height: 360px !important;
+    }
+    .fa-scroll{
+        font-size: 30px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 30px; 
+        padding-left: 5px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 30px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 30px; 
+        padding-left: 13px;
+    }
+    
+    .fa-leaf{
+        font-size: 30px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 30px;
+    }
+    .btn-lg{
+        width: 90px !important;
+        font-size: 15px !important;
+        height: auto !important;
+    }
+
+}
+
+@media screen and (min-width: 400px){
+    .bg-content{
+        height: 560px !important;
+        width: 350px !important;
+    }
+    .text-edu{
+        font-size: 0.8rem !important;
+        padding: 30px 0px !important;
+    }
+    .bg-button{
+        width: 300px !important;
+        height: 400px !important;
+    }
+    .fa-scroll{
+        font-size: 35px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 35px; 
+        padding-left: 5px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 35px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 35px; 
+        padding-left: 13px;
+    }
+    
+    .fa-leaf{
+        font-size: 35px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 35px;
+    }
+    .btn-lg{
+        width: 120px !important;
+        font-size: 20px !important;
+    }
+
+}
+
+@media screen and (min-width: 450px){
+    .bg-content{
+        height: 560px !important;
+        width: 400px !important;
+    }
+    .text-edu{
+        font-size: 1rem !important;
+    }
+    .bg-button{
+        width: 300px !important;
+    }
+    .fa-scroll{
+        font-size: 35px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 35px; 
+        padding-left: 5px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 35px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 35px; 
+        padding-left: 13px;
+    }
+    
+    .fa-leaf{
+        font-size: 35px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 35px;
+    }
+    .btn-lg{
+        width: 120px !important;
+        font-size: 20px !important;
+    }
+
+}
+
+@media screen and (min-width: 576px){
+    .bg-content{
+        height: 630px !important;
+        width: auto !important;
+    }
+    .text-edu{
+        font-size: 1.3rem !important;
+    }
+    .bg-button{
+        width: 400px !important;
+        height: 460px !important;
+    }
+    .fa-scroll{
+        font-size: 40px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 40px; 
+        padding-left: 5px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 40px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 40px; 
+        padding-left: 13px;
+    }
+    
+    .fa-leaf{
+        font-size: 40px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 40px;
+    }
+    .btn-lg{
+        width: 150px !important;
+        height: 104px !important;
+        font-size: 27px !important;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .bg-content{
+        height: 690px;
+    }
+    .bg-button{
+        width: 550px !important;
+    }
+    .fa-scroll{
+        font-size: 40px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 40px; 
+        padding-left: 5px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 40px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 40px; 
+        padding-left: 0px;
+    }
+    
+    .fa-leaf{
+        font-size: 40px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 40px;
+    }
+    .btn-lg{
+        width: 180px !important;
+        font-size: 27px !important;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .bg-content{
+        height: 690px;
+    }
+    .bg-button{
+        width: 720px !important;
+    }
+    .fa-scroll{
+        font-size: 47px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 47px; 
+        padding-left: 0px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 47px; 
+        padding-left: 0px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 45px; 
+        padding-left: 10px;
+    }
+    
+    .fa-leaf{
+        font-size: 47px; 
+        padding-left: 0px;
+    }
+    
+    .fa-computer{
+        font-size: 47px;
+    }
+    .btn-lg{
+        width: 250px !important;
+        font-size: 27px !important;
+    }
+
+}
+
+@media screen and (min-width: 1100px){
+    .bg-button{
+        width: 800px !important;
+    }
+    .fa-scroll{
+        font-size: 48px;
+    }
+    
+    .fa-bottle-water{
+        font-size: 55px; 
+        padding-left: 7px;
+    }
+    
+    .fa-champagne-glasses{
+        font-size: 50px; 
+        padding-left: 8px;
+    }
+    
+    .fa-screwdriver-wrench{
+        font-size: 45px; 
+        padding-left: 10px;
+    }
+    
+    .fa-leaf{
+        font-size: 48px; 
+        padding-left: 15px;
+    }
+    
+    .fa-computer{
+        font-size: 48px;
+    }
+    .btn-lg{
+        width: 250px !important;
+        font-size: 30px !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .bg-button{
+        width: 1000px !important;
+    }
+    .btn-lg{
+        width: 300px !important;
+    }
+}

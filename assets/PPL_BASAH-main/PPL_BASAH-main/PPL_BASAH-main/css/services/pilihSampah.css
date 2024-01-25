@@ -1,0 +1,87 @@
+/* atas navbar */
+#top{
+    background-color: rgba(83, 148, 7, 1);
+  }
+  
+  #top p{
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+  }
+  
+  @media (max-width: 1005px) {
+    #top #text1{
+        display: none;
+    }
+  }
+/* end atas navbar */
+
+/* Navbar */
+@media (max-width: 1000px) {
+    nav #navbarTogglerDemo02 #button_sign_in{
+      margin-left: auto!important;
+      margin-right: auto!important;
+      width: 25%;
+    }
+  
+    nav #navbarTogglerDemo02 ul{
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+nav #navbarTogglerDemo02 ul li a:hover{
+    color: #79AC78;
+}
+/* End Navbar */
+
+/* Start isi*/
+.section{
+    margin: 2rem 0;
+}
+
+.section a{
+  color: #212529;
+}
+
+.section svg{
+    height: 2.5em;
+    width: 3em;
+    cursor: pointer;
+}
+
+.section svg:hover
+{
+  color:#79AC78;
+  text-decoration:none;
+}
+
+.section p{
+  font-size: 1vw;
+}
+
+.section1 label{
+  font-size: 1.2vw;
+}
+
+.section2{
+  margin: 2rem 0 5rem 0;
+}
+
+.section2 p{
+  font-size: 1.2vw;
+  line-height: 200%;
+}
+
+.container .col-3{
+  display: flex;
+  justify-content: end;
+}
+
+/* End isi */

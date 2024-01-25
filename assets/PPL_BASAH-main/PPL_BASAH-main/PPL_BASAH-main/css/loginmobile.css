@@ -1,0 +1,446 @@
+.android-large {
+    background-color: #618264;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .android-large .div {
+    background-color: #618264;
+    width: 425px;
+    height: 667px;
+    position: relative;
+  }
+  
+  .android-large .overlap {
+    position: absolute;
+    width: 425px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    background-color: #539407;
+  }
+  
+  .android-large .navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: 6px;
+    left: 233px;
+  }
+  
+  .android-large .vector {
+    position: relative;
+    width: 12px;
+    height: 9px;
+    margin-left: -0.5px;
+  }
+  
+  .android-large .text-wrapper {
+    position: relative;
+    width: 72px;
+    height: 13px;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .android-large .text-wrapper-2 {
+    width: 10px;
+    position: relative;
+    height: 15px;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .android-large .text-wrapper-3 {
+    width: 15px;
+    position: relative;
+    height: 15px;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .android-large .text-wrapper-4 {
+    width: 19px;
+    position: relative;
+    height: 15px;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .android-large .text-wrapper-5 {
+    width: 14px;
+    position: relative;
+    height: 15px;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+    white-space: nowrap;
+  }
+  
+  .android-large .overlap-group {
+    position: absolute;
+    width: 425px;
+    height: 27px;
+    top: 27px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .android-large .img {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 8px;
+    left: 395px;
+  }
+  
+  .android-large .image-logo {
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    top: 6px;
+    left: 16px;
+    object-fit: cover;
+  }
+  
+  .android-large .overlap-2 {
+    position: absolute;
+    width: 425px;
+    height: 125px;
+    top: 542px;
+    left: 0;
+  }
+  
+  .android-large .section {
+    position: absolute;
+    width: 425px;
+    height: 110px;
+    top: 15px;
+    left: 0;
+    background-image: url(./img/section.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .android-large .footer {
+    position: absolute;
+    width: 344px;
+    height: 30px;
+    top: 0;
+    left: 48px;
+  }
+  
+  .android-large .overlap-group-2 {
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    top: 0;
+    left: 105px;
+  }
+  
+  .android-large .rectangle {
+    position: absolute;
+    width: 238px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #c0eac2;
+    border-radius: 6px;
+  }
+  
+  .android-large .telp {
+    position: absolute;
+    width: 59px;
+    height: 14px;
+    top: 8px;
+    left: 10px;
+  }
+  
+  .android-large .element {
+    position: absolute;
+    width: 41px;
+    top: 0;
+    left: 16px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 7px;
+  }
+  
+  .android-large .vector-2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .android-large .email {
+    position: absolute;
+    width: 85px;
+    height: 14px;
+    top: 8px;
+    left: 156px;
+  }
+  
+  .android-large .vector-3 {
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .android-large .basah-gmail-com {
+    position: absolute;
+    width: 63px;
+    top: 0;
+    left: 20px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 7px;
+  }
+  
+  .android-large .location {
+    position: absolute;
+    width: 58px;
+    height: 21px;
+    top: 5px;
+    left: 88px;
+  }
+  
+  .android-large .vector-4 {
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .android-large .jl-prof-m-yamin {
+    position: absolute;
+    width: 42px;
+    top: 0;
+    left: 14px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: 7px;
+  }
+  
+  .android-large .vector-5 {
+    position: absolute;
+    width: 1px;
+    height: 21px;
+    top: 5px;
+    left: 80px;
+  }
+  
+  .android-large .vector-6 {
+    position: absolute;
+    width: 1px;
+    height: 21px;
+    top: 5px;
+    left: 146px;
+  }
+  
+  .android-large .logo {
+    position: absolute;
+    width: 89px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #539407;
+    border-radius: 6px;
+  }
+  
+  .android-large .vector-7 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    left: 10px;
+  }
+  
+  .android-large .screenshot {
+    position: absolute;
+    width: 50px;
+    height: 16px;
+    top: 5px;
+    left: 28px;
+    object-fit: cover;
+  }
+  
+  .android-large .group {
+    position: absolute;
+    width: 271px;
+    height: 60px;
+    top: 40px;
+    left: 81px;
+  }
+  
+  .android-large .text-wrapper-6 {
+    position: absolute;
+    height: 20px;
+    top: 1px;
+    left: 0;
+    font-family: "Jost-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .android-large .p {
+    position: absolute;
+    width: 125px;
+    height: 39px;
+    top: 21px;
+    left: 0;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .android-large .text-wrapper-7 {
+    position: absolute;
+    width: 105px;
+    height: 21px;
+    top: 0;
+    left: 147px;
+    font-family: "Jost-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .android-large .text-wrapper-8 {
+    position: absolute;
+    width: 116px;
+    height: 23px;
+    top: 21px;
+    left: 147px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: 11.5px;
+  }
+  
+  .android-large .group-2 {
+    position: absolute;
+    width: 73px;
+    height: 13px;
+    top: 91px;
+    left: 228px;
+  }
+  
+  .android-large .group-3 {
+    position: absolute;
+    width: 342px;
+    height: 12px;
+    top: 109px;
+    left: 43px;
+  }
+  
+  .android-large .text-wrapper-9 {
+    position: absolute;
+    width: 206px;
+    height: 9px;
+    top: 3px;
+    left: 67px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 5px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .android-large .span {
+    position: absolute;
+    width: 340px;
+    height: 1px;
+    top: 0;
+    left: 0;
+  }
+  
+  .android-large .group-4 {
+    position: absolute;
+    width: 293px;
+    height: 284px;
+    top: 146px;
+    left: 66px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .android-large .login {
+    position: absolute;
+    width: 220px;
+    height: 182px;
+    top: 72px;
+    left: 32px;
+  }
+  
+  .android-large .screenshot-2 {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    top: 12px;
+    left: 92px;
+    object-fit: cover;
+  }
+  
