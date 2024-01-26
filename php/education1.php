@@ -158,7 +158,7 @@
           </ul>
 
           <div class="d-grid gap-2" id="button_sign_in">
-            <a href="sign-up2.php">
+            <a href="../html/sign-up2.php"">
               <button
                 class="btn btn-outline-success"
                 type="submit"
@@ -186,7 +186,7 @@
                 // Create a confirmation dialog (alert box with a button)
                 if (confirm(alertMessage)) {
                     // Redirect to the login page if the user clicks "Login"
-                    window.location.href = "signin.php"; // Change to your login page
+                    window.location.href = "../html/sign-in.php"; // Change to your login page
                 }
             }
         }

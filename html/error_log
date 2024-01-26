@@ -1,0 +1,73 @@
+[25-Jan-2024 04:27:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php:10
+Stack trace:
+#0 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php(10): mysqli->__construct()
+#1 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/sign-in.php(7): include('/home/kelasmm2/...')
+#2 {main}
+  thrown in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php on line 10
+[25-Jan-2024 04:27:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php:10
+Stack trace:
+#0 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php(10): mysqli->__construct()
+#1 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/sign-in.php(7): include('/home/kelasmm2/...')
+#2 {main}
+  thrown in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php on line 10
+[25-Jan-2024 04:28:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php:10
+Stack trace:
+#0 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php(10): mysqli->__construct()
+#1 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/sign-in.php(7): include('/home/kelasmm2/...')
+#2 {main}
+  thrown in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php on line 10
+[25-Jan-2024 04:28:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php:10
+Stack trace:
+#0 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php(10): mysqli->__construct()
+#1 /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/process-signup.php(5): include('/home/kelasmm2/...')
+#2 {main}
+  thrown in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/database.php on line 10
+[25-Jan-2024 04:46:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 186
+[25-Jan-2024 04:46:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 187
+[25-Jan-2024 04:46:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 188
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 04:46:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 204
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 205
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 208
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 213
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 219
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 225
+[25-Jan-2024 04:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profileEdit.php on line 226
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 04:46:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 04:46:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189
+[25-Jan-2024 06:26:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 186
+[25-Jan-2024 06:26:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 187
+[25-Jan-2024 06:26:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/alamat.php on line 188
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 07:06:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 12:04:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 184
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 185
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 186
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 187
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 188
+[25-Jan-2024 12:05:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/kelasmm2/21102198.kelasmm2.cloud/Tugas_besar/Userbasah/basahf/html/profile.php on line 189

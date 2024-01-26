@@ -4,6 +4,12 @@ session_start();
 
     $queryEdukasi = mysqli_query($con, "SELECT * FROM gambar");
     $NoData = mysqli_num_rows($queryEdukasi);
+    
+if (!isset($_SESSION['ID_user'])) {
+    // Jika belum login, redirect ke halaman login
+    header("Location: sign-in.php");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>

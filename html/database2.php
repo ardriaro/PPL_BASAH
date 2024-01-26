@@ -2,9 +2,9 @@
 // database2.php
 
 $host = "localhost"; // Replace with your database host
-$dbname = "basah"; // Replace with your database name
-$username = "root"; // Replace with your database username
-$password = ""; // Replace with your database password
+$dbname = "kelasmm2_basah"; // Replace with your database name
+$username = "kelasmm2_basah"; // Replace with your database username
+$password = "Basah2024"; // Replace with your database password
 
 try {
     // Create a PDO connection

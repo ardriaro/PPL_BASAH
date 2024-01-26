@@ -1,0 +1,919 @@
+.sign-up {
+    background-color: #618264;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-up .div {
+    background-color: #618264;
+    width: 1920px;
+    height: 2086px;
+    position: relative;
+}
+
+.sign-up .header {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    background-color: transparent;
+}
+
+.sign-up .contact-bar {
+    align-items: flex-start;
+    padding: 11px 65px 10px;
+    background-color: #539407;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .div-2 {
+    display: flex;
+    width: 1790px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sign-up .div-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.sign-up .sosmed {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .a-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 1px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Font Awesome 5 Free-Regular", Helvetica;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .div-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 1px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+    white-space: nowrap;
+}
+
+.sign-up .nav-bar {
+    display: flex;
+    width: 1919.69px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 24px 170px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #e8f5e9;
+}
+
+.sign-up .frame {
+    display: flex;
+    width: 1579.69px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sign-up .image-logo {
+    position: relative;
+    width: 128px;
+    height: 39px;
+    object-fit: cover;
+}
+
+.sign-up .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 73px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .ul-menu-main-menu {
+    display: flex;
+    width: 587.69px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sign-up .home {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 500;
+    color: #539407;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.sign-up .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    color: #539407;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 500;
+    color: #0f4229;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.sign-up .a {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 5.44px;
+    padding: 11.56px 4.25px 13.58px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 500;
+    color: #0f4229;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.sign-up .image {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .contact-button {
+    align-items: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #707070;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: "Rubik-Medium", Helvetica;
+    font-weight: 400;
+    color: #0f4229;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.sign-up .span {
+    font-weight: 500;
+}
+
+.sign-up .text-wrapper-8 {
+    font-family: "Rubik-Bold", Helvetica;
+    font-weight: 700;
+}
+
+.sign-up .group {
+    position: absolute;
+    width: 1920px;
+    height: 628px;
+    top: 1458px;
+    left: 0;
+}
+
+.sign-up .overlap {
+    position: relative;
+    height: 628px;
+}
+
+.sign-up .section-wrapper {
+    position: absolute;
+    width: 1920px;
+    height: 568px;
+    top: 60px;
+    left: 0;
+}
+
+.sign-up .section {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 150px 0px 37px;
+    position: relative;
+    background-image: url(./img/section.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.sign-up .div-5 {
+    position: relative;
+    width: 1920px;
+    height: 381.39px;
+}
+
+.sign-up .div-6 {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0px 0.02px 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 627px;
+}
+
+.sign-up .div-7 {
+    position: relative;
+    width: 292.5px;
+    height: 237.39px;
+}
+
+.sign-up .text-wrapper-9 {
+    position: absolute;
+    height: 20px;
+    top: -1px;
+    left: 0;
+    font-family: "Jost-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.sign-up .span-2 {
+    position: absolute;
+    width: 22px;
+    height: 3px;
+    top: 38px;
+    left: 0;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #539407;
+}
+
+.sign-up .text-wrapper-10 {
+    position: absolute;
+    width: 242px;
+    height: 79px;
+    top: 71px;
+    left: 0;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.sign-up .div-8 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 88.5px 0px 0px;
+    position: absolute;
+    top: 191px;
+    left: 0;
+}
+
+.sign-up .div-wrapper {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background-color: #539407;
+    border-radius: 19.5px;
+}
+
+.sign-up .text-wrapper-11 {
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    top: 12px;
+    left: 15px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .a-2 {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background-color: #ffffff1a;
+    border-radius: 19.5px;
+}
+
+.sign-up .text-wrapper-12 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 12px;
+    left: 13px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .text-wrapper-13 {
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    top: 12px;
+    left: 14px;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .img {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 13px;
+    left: 14px;
+}
+
+.sign-up .div-9 {
+    position: relative;
+    width: 374.39px;
+    height: 237.39px;
+}
+
+.sign-up .text-wrapper-14 {
+    position: absolute;
+    height: 20px;
+    top: -1px;
+    left: 23px;
+    font-family: "Jost-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.sign-up .span-3 {
+    width: 22px;
+    height: 3px;
+    top: 38px;
+    left: 23px;
+    border-top-width: 3px;
+    border-color: #539407;
+    position: absolute;
+    border-top-style: solid;
+}
+
+.sign-up .text-wrapper-15 {
+    position: absolute;
+    width: 295px;
+    height: 49px;
+    top: 71px;
+    left: 23px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.sign-up .overlap-group-wrapper {
+    position: absolute;
+    width: 351px;
+    height: 70px;
+    top: 151px;
+    left: 23px;
+}
+
+.sign-up .overlap-group {
+    position: relative;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.sign-up .input-mf-input-email {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 25px 21px 26px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.sign-up .div-placeholder {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0px 198.39px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik-Light", Helvetica;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 300;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.sign-up .button {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 20px 22px 18px 20px;
+    position: absolute;
+    top: 4px;
+    left: 286px;
+    background-color: #539407;
+    border-radius: 29px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.sign-up .text-wrapper-17 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .span-4 {
+    width: 1170px;
+    height: 1px;
+    top: 316px;
+    left: 375px;
+    border-top-width: 1px;
+    border-color: #ffffff33;
+    position: absolute;
+    border-top-style: solid;
+}
+
+.sign-up .a-3 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 326px;
+    left: 1835px;
+    border-radius: 27.5px;
+    border: 2px solid;
+    border-color: #539407;
+}
+
+.sign-up .text-wrapper-18 {
+    position: absolute;
+    width: 13px;
+    height: 15px;
+    top: 18px;
+    left: 21px;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.sign-up .text-wrapper-19 {
+    position: absolute;
+    height: 30px;
+    top: 346px;
+    left: 631px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.sign-up .group-2 {
+    position: absolute;
+    width: 1176px;
+    height: 120px;
+    top: 0;
+    left: 375px;
+}
+
+.sign-up .overlap-2 {
+    position: absolute;
+    width: 870px;
+    height: 120px;
+    top: 0;
+    left: 300px;
+    background-image: url(./img/rectangle-14.svg);
+    background-size: 100% 100%;
+}
+
+.sign-up .element {
+    position: absolute;
+    top: 40px;
+    left: 68px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.sign-up .basah-gmail-com {
+    position: absolute;
+    width: 206px;
+    top: 40px;
+    left: 642px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.sign-up .text-wrapper-20 {
+    position: absolute;
+    width: 223px;
+    top: 27px;
+    left: 339px;
+    font-family: "Rubik-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.sign-up .material-symbols {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 44px;
+    left: 23px;
+    transform: rotate(90deg);
+}
+
+.sign-up .vector {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 4px;
+    transform: rotate(-90deg);
+}
+
+.sign-up .vector-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 44px;
+    left: 296px;
+}
+
+.sign-up .vector-2 {
+    position: absolute;
+    width: 21px;
+    height: 27px;
+    top: 3px;
+    left: 5px;
+}
+
+.sign-up .ic-baseline-email {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 44px;
+    left: 592px;
+}
+
+.sign-up .vector-3 {
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    top: 5px;
+    left: 3px;
+}
+
+.sign-up .vector-4 {
+    position: absolute;
+    width: 1px;
+    height: 88px;
+    top: 16px;
+    left: 272px;
+}
+
+.sign-up .vector-5 {
+    position: absolute;
+    width: 1px;
+    height: 88px;
+    top: 16px;
+    left: 568px;
+}
+
+.sign-up .logo-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #539407;
+    border-radius: 12px;
+}
+
+.sign-up .logo {
+    position: relative;
+    width: 236px;
+    height: 72px;
+}
+
+.sign-up .vector-6 {
+    position: absolute;
+    width: 54px;
+    height: 72px;
+    top: 0;
+    left: 0;
+}
+
+.sign-up .screenshot {
+    position: absolute;
+    width: 170px;
+    height: 55px;
+    top: 9px;
+    left: 66px;
+    object-fit: cover;
+}
+
+.sign-up .log-in-card {
+    position: absolute;
+    width: 1150px;
+    height: 1048px;
+    top: 323px;
+    left: 387px;
+}
+
+.sign-up .overlap-3 {
+    position: relative;
+    width: 1146px;
+    height: 1048px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.sign-up .sugmit-log-in-button {
+    position: absolute;
+    width: 303px;
+    height: 79px;
+    top: 743px;
+    left: 423px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.sign-up .overlap-group-2 {
+    position: relative;
+    width: 301px;
+    height: 79px;
+    background-color: #79ac78;
+    border-radius: 10px;
+}
+
+.sign-up .text-wrapper-21 {
+    position: absolute;
+    top: 19px;
+    left: 95px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.sign-up .email {
+    position: absolute;
+    width: 586px;
+    height: 66px;
+    top: 444px;
+    left: 280px;
+}
+
+.sign-up .overlap-4 {
+    position: relative;
+    width: 584px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #79ac78;
+}
+
+.sign-up .text-wrapper-22 {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    -webkit-text-stroke: 1px #79ac78;
+    opacity: 0.7;
+    font-family: "Roboto Condensed-Light", Helvetica;
+    color: #505050;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    font-weight: 300;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.sign-up .password-check {
+    position: absolute;
+    width: 586px;
+    height: 66px;
+    top: 626px;
+    left: 282px;
+}
+
+.sign-up .password {
+    position: absolute;
+    width: 586px;
+    height: 66px;
+    top: 535px;
+    left: 280px;
+}
+
+.sign-up .name {
+    position: absolute;
+    width: 586px;
+    height: 66px;
+    top: 353px;
+    left: 280px;
+}
+
+.sign-up .text-wrapper-23 {
+    position: absolute;
+    width: 85px;
+    top: 14px;
+    left: 13px;
+    -webkit-text-stroke: 1px #79ac78;
+    opacity: 0.7;
+    font-family: "Roboto Condensed-Light", Helvetica;
+    font-weight: 300;
+    color: #505050;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    line-height: normal;
+}
+
+.sign-up .text-wrapper-24 {
+    position: absolute;
+    top: 252px;
+    left: 439px;
+    font-family: "Shanti-Regular", Helvetica;
+    font-weight: 400;
+    color: #2c2c2c;
+    font-size: 60px;
+    letter-spacing: 3px;
+    line-height: normal;
+}
+
+.sign-up .text-wrapper-25 {
+    position: absolute;
+    width: 76px;
+    top: 695px;
+    left: 788px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #696969;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.sign-up .image-logo-2 {
+    position: absolute;
+    width: 505px;
+    height: 234px;
+    top: 18px;
+    left: 321px;
+    object-fit: cover;
+}
