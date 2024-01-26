@@ -143,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg" style="background-color: #e8f5e9">
       <div class="container-fluid justify-content-start">
-      <a href="homepage2.php">
+      <a href="../homepage2.php">
           <img
             class="navbar-brand"
             src="../../assets/Screenshot_2023-10-21_121056-removebg-preview 2.svg"

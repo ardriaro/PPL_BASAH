@@ -1,5 +1,10 @@
 <?php
 session_start();
+if (!isset($_SESSION['ID_user'])) {
+    // Jika belum login, redirect ke halaman login
+    header("Location: /html/sign-in.php");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>

@@ -209,6 +209,7 @@ $NoDataOngoing = mysqli_num_rows($queryOngoing);
                     <th><h5>ID Transaksi</h5></th>
                     <th><h5>Nama</h5></th>
                     <th><h5>Jenis Sampah</h5></th>
+                    <th><h5>Label Alamat</h5></th>
                     <th><h5>Alamat</h5></th>
                     <th><h5>catatan</h5></th>
                     <th><h5>Tanggal dan Waktu</h5></th>
